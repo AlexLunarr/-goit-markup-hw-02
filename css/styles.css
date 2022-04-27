@@ -1,4 +1,61 @@
-body {
-  color: #212121;
-  color: rgb(86, 201, 51);
+/* КОЛЬОРИ ТЕКСТУ */
+/* головний колір текста 
+#212121 
+--main-color: #212121;
+*/
+/* колір текста лого
+#000000 
+--color-logo: #000000 ;
+*/
+/* колір текста лого
+#2196F3 
+--color-logo-two: #2196F3 ;
+*/
+/* колір текста лого хіро лого Лесі Українки
+#FFFFFF 
+--color-logo-three:#FFFFFF  ;
+*/
+/* колір текста ховер
+#2196F3 
+-color-hover:#2196F3  ;
+*/
+/* колір текста мейл телефон параграф
+#757575 
+--color-mail:#757575  ;
+*/
+
+/* КОЛЬОРИ ФОНУ ЗАДНЬОГО */
+/* головний колір заднього фону 
+#FFFFFF 
+--main-background-color: #FFFFFF ;
+*/
+
+/* темносиній колір заднього фону 
+#2F303A
+--background-color-one: #2f303a;
+*/
+
+/* сіреньий колір заднього фону 
+#F5F4FA
+-background-color-two: #F5F4FA;
+*/
+
+/* колір заднього фону іконок портфоліо
+#EEEEEE
+*/
+
+:root {
+  --main-color: #212121;
+  --main-background-color: #ffffff;
+  --color-logo: #000000;
+  --color-logo-two: #2196f3;
+  --color-logo-three: #ffffff;
+  --color-hover: #2196f3;
+  --color-mail: #757575;
+  --background-color-one: #2f303a;
+  --background-color-two: #f5f4fa;
+  --background-color-three: #eeeeee;
+}
+p {
+  background-color: ;
 }
