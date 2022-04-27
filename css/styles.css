@@ -19,9 +19,13 @@
 #2196F3 
 -color-hover:#2196F3  ;
 */
-/* колір текста мейл телефон параграф
+/* колір текста параграф та хедер mail
 #757575 
---color-mail:#757575  ;
+--color-text:#757575  ;
+*/
+/* колір мейл телефон 
+rgba(255, 255, 255, 0.6);
+--color-mail:rgba(255, 255, 255, 0.6);
 */
 
 /* КОЛЬОРИ ФОНУ ЗАДНЬОГО */
@@ -51,11 +55,61 @@
   --color-logo-two: #2196f3;
   --color-logo-three: #ffffff;
   --color-hover: #2196f3;
-  --color-mail: #757575;
+  --color-text: #757575;
+  --color-mail: rgba(255, 255, 255, 0.6);
   --background-color-one: #2f303a;
   --background-color-two: #f5f4fa;
   --background-color-three: #eeeeee;
 }
-p {
-  background-color: ;
+
+body {
+  font-family: "Roboto";
+  color: var(--main-color);
+  background-color: #e5e5e5;
+}
+
+.main-studia {
+  width: 1600px;
+  height: 2349px;
+  background-color: var(--main-background-color);
+}
+/* header Шапка  */
+/* логотип */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--color-logo-two);
+  text-decoration: none;
+}
+.logo .header-logo {
+  color: var(--color-logo);
+}
+.logo .footer-logo {
+  color: var(--color-logo-three);
+}
+
+.header-nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  text-decoration: none;
+}
+.header-nav-list,
+.header-list {
+  list-style-type: none;
 }
