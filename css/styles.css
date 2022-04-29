@@ -237,7 +237,7 @@ body {
 
 .filters-button {
   font-family: inherit;
-  font-style: normal;
+  font-style: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
