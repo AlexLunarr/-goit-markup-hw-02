@@ -66,8 +66,8 @@ rgba(255, 255, 255, 0.6);
 /* глобальні налаштування */
 body {
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.03em;
-  font-weight: 400;
+  letter-spacing: 0.03em; /*на кожному тексті, я перевірив */
+  font-size: 14px;
 
   color: var(--main-color);
   background-color: var(--main-background-color);
@@ -110,12 +110,12 @@ body {
   text-decoration: none;
   color: var(--main-color);
 }
-.header-nav-link.active {
-  color: var(--color-hover);
-}
 
+.header-nav-link.active,
 .header-nav-link:hover,
-.header-nav-link:focus {
+.header-nav-link:focus,
+.header-link:hover,
+.header-link:focus {
   color: var(--color-hover);
 }
 
@@ -126,10 +126,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-text);
   text-decoration: none;
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--color-hover);
 }
 
 /* <!-- Черная секция герой --> */
@@ -163,6 +159,9 @@ body {
 }
 
 /* <!-- Характеристики --> */
+.character-title {
+  visibility: hidden;
+}
 
 .character-item-title {
   font-weight: 700;
@@ -192,6 +191,13 @@ body {
 .team {
   background-color: var(--background-color-two);
 }
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .team-item {
   background-color: var(--main-background-color);
 }
@@ -234,6 +240,9 @@ body {
   color: var(--color-hover);
 }
 /*  <!-- Основной контент portfolio */
+.portfolio-title {
+  visibility: hidden;
+}
 
 .filters-button {
   font-family: inherit;
@@ -249,6 +258,8 @@ body {
   background-color: var(--background-color-button-two);
   color: var(--main-color);
 }
+/* .button:current(.filters-button), */
+.filters-button:active,
 .filters-button:hover,
 .filters-button:focus {
   color: var(--color-button-one);
